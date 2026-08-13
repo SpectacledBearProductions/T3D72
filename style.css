@@ -1,0 +1,48 @@
+.title {
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+}
+.video {
+    display: flex;
+    justify-content: center;
+}
+.videos {
+    display: flex;
+    justify-content: center;
+  font-family: Arial, sans-serif;
+}
+body{
+    background-color: #003983fb;
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 3rem;
+    margin-top: 6.5rem;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    background-color: #8cb8f3fb;
+}
+.ad {
+    display: flex;
+    justify-content: center;
+}
+.ad-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.next-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
